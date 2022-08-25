@@ -1,0 +1,47 @@
+.masthead {
+  padding: 1rem 0;
+  background-color: #00673e;
+  text-align: center;
+}
+
+.masthead a,
+.masthead a h1,
+.masthead a strong {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.masthead a:hover,
+.masthead a:focus,
+.masthead a h1:hover,
+.masthead a h1:focus,
+.masthead a strong:hover,
+.masthead a strong:focus {
+  color: #ffffffaa;
+}
+
+.masthead li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.masthead .logo h1,
+.masthead .logo strong {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.masthead ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.masthead li {
+  padding: 0.5rem;
+}
+
+.masthead [aria-current="page"] {
+  text-decoration: underline;
+}

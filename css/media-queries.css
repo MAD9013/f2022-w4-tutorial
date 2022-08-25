@@ -1,0 +1,50 @@
+/* ---------- min-width ---------- */
+
+.mq-box-width {
+  padding: 1.5rem;
+  color: #00673e;
+  border: .25rem solid #00673e;
+  background-color: #befee4;
+  border-radius: .5rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.mq-box-width .medium,
+.mq-box-width .large {
+  display: none;
+}
+
+/* ---------- min-height ---------- */
+
+.mq-box-height {
+  padding: 1.5rem;
+  color: #00673e;
+  border: .25rem solid #00673e;
+  background-color: #befee4;
+  border-radius: .5rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.mq-box-height .medium,
+.mq-box-height .large {
+  display: none;
+}
+
+
+/* ---------- min-orientation ---------- */
+
+.mq-box-orientation {
+  padding: 1.5rem;
+  color: #00673e;
+  border: .25rem solid #00673e;
+  background-color: #befee4;
+  border-radius: .5rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.mq-box-orientation .portrait {
+  display: none;
+}

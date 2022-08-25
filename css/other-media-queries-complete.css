@@ -1,0 +1,20 @@
+@media print {
+
+  .no-print {
+    display: none!important;
+  }
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+  html {
+    color: #fff;
+    background-color: #223;
+  }
+
+  .masthead {
+    background-color: #223;
+  }
+
+}
